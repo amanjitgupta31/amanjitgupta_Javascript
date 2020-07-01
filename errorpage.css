@@ -1,0 +1,23 @@
+div {
+    padding-top: 70mm;
+}
+
+h3 {
+    font-size: 12mm;
+}
+
+p {
+    font-size: 8mm;
+}
+
+.gonew {
+    background-color: rgb(186, 214, 25);
+    border-radius: 7px;
+    padding: 10px 15mm;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 10mm;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+#pass {
+    border-width: 0.005mm;
+    border: solid;
+    border-color: red;
+    width: 110mm;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+#uname {
+    border-width: 0.005mm;
+    border: solid;
+    border-color: rgb(231, 228, 228);
+    width: 110mm;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+}

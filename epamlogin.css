@@ -1,0 +1,98 @@
+h3 {
+    text-align: left;
+    background-color: rgb(34, 215, 228);
+    width: 120mm;
+    height: 65px;
+    font-size: 11mm;
+    font-family: 'Segoe UI';
+    color: white;
+    border-radius: 7px;
+}
+
+span {
+    vertical-align: top;
+    align-self: center;
+}
+
+u {
+    text-decoration: none;
+    font-size: 6mm;
+    vertical-align: 1.2mm;
+    cursor: pointer;
+}
+
+.sign {
+    background-color: rgb(34, 215, 228);
+    padding: 13px 45mm;
+    border-radius: 7px;
+    font-size: 7mm;
+    color: white;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    border-width: 0.005mm;
+    border: solid;
+    border-color: rgb(231, 228, 228);
+    width: 110mm;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.facebook {
+    background-color: rgb(55, 132, 219);
+    padding: 8px 55mm;
+    border-radius: 7px;
+    font-size: 12mm;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 10mm;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.google {
+    background-color: rgb(230, 72, 51);
+    padding: 10px 55mm;
+    border-radius: 7px;
+    font-size: 12mm;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10mm;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login {
+    background-color: rgb(186, 214, 25);
+    border-radius: 7px;
+    padding: 10px 15mm;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 10mm;
+}
+
+.fnr {
+    color: grey;
+    font-size: 5mm;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+
+.or {
+    color: rgb(206, 203, 203);
+    font-size: 5mm;
+}
+
+img {
+    margin-top: 2.5mm;
+    margin-left: 2mm;
+    height: 12mm;
+}
