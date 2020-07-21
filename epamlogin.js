@@ -6,6 +6,8 @@ function alertFunction() {
     if (str1.length < 1) {
 
         u = 1;
+    } else if (!str1.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+        u = 2;
     }
     if (str2.length < 1) {
 
@@ -35,6 +37,20 @@ function alertFunction() {
         document.getElementsByTagName('HEAD')[0].appendChild(link);
         alert("Enter your registered mail id and password...");
 
+    } else if (u == 2 && p == 1) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'style3.css';
+        document.getElementsByTagName('HEAD')[0].appendChild(link);
+        alert("Enter a valid mail id and password cannot be left blank...");
+    } else if (u == 2 && p == 0) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'style1.css';
+        document.getElementsByTagName('HEAD')[0].appendChild(link);
+        alert("Enter a valid mail id...");
     } else
-        window.location.href = "errorpage.html";
+        alert("Error:Page not found.");
 }
