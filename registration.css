@@ -1,0 +1,218 @@
+body {
+    background-color: rgb(173, 230, 59);
+}
+
+#header {
+    text-align: center;
+    font-size: 10mm;
+    color: white;
+    background-color: rgb(173, 230, 59);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-decoration: underline;
+}
+
+#reg {
+    display: inline-block;
+    margin-left: 2%;
+    font-size: xx-large;
+    margin-bottom: auto;
+    color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+}
+
+#mandat {
+    color: red;
+    margin-bottom: 1%;
+    text-align: right;
+}
+
+span {
+    color: red;
+}
+
+#name {
+    font-size: x-large;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fname,
+#mname,
+#lname {
+    display: inline-block;
+    border-width: 0.005mm;
+    border: solid;
+    border-color: rgb(231, 228, 228);
+    width: 25%;
+    height: 29px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 0.25%
+}
+
+#ddmmyyyy,
+#email,
+#mobno,
+#street,
+#area,
+#city,
+#pin,
+#submit {
+    display: inline-block;
+    border-width: 0.005mm;
+    border: solid;
+    border-color: rgb(231, 228, 228);
+    width: 25%;
+    height: 29px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#back {
+    display: inline-block;
+    border-width: 0.005mm;
+    border: solid;
+    border-color: rgb(231, 228, 228);
+    width: 25%;
+    height: 10%;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#dob,
+#mail,
+#mobile,
+#address {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 10%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#gender {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#radiom,
+#radiof,
+#radioo {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#male,
+#female,
+#other {
+    margin-top: 2%;
+    margin-left: 1%;
+    display: inline-block;
+    font-size: large;
+}
+
+#city,
+#area,
+#pin {
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
+#back {
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+#button {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#fname_error,
+#mname_error,
+#lname_error,
+#date_error,
+#gender_error,
+#email_error,
+#mobile_error,
+#street_error,
+#area_error,
+#city_error,
+#pin_error {
+    color: red;
+    margin-left: 2%;
+}
+
+@media screen and (max-width:460px) {
+    #reg {
+        margin-top: 1%;
+        font-size: larger;
+        width: 100%;
+    }
+    #fname,
+    #mname,
+    #lname {
+        width: 80%;
+        height: 30px;
+        margin-bottom: 1%;
+    }
+    #dob,
+    #mobile {
+        margin-right: 1%;
+    }
+    #ddmmyyyy,
+    #mobno,
+    #email {
+        margin-left: auto;
+        width: 65%;
+        height: 30px;
+    }
+    #radiom,
+    #radiof,
+    #radioo {
+        margin-left: 2%;
+    }
+    #mail {
+        margin-right: 1%;
+    }
+    #street,
+    #city,
+    #area,
+    #pin {
+        width: 90%;
+        height: 30px;
+        margin-bottom: 1%;
+        margin-top: auto;
+        margin-left: 5%;
+    }
+    #back {
+        width: 50%;
+        height: 2%;
+        margin-left: 45%;
+    }
+}

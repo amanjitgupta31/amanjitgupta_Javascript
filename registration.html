@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epam:Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div id="all">
+        <h3 id='header'>
+            <&nbsp EPAM &nbsp>
+        </h3>
+        <button id="back" style="display: inline-block;" onclick="window.location.href='epamlogin.html';">Already registered? Login here</button>
+        <h5 id="reg" style="display: inline-block;">
+            Registration :-
+        </h5>
+
+        <div id="mandat">
+            * Mandatory
+        </div>
+        <div id="name">
+            Name <span>*</span>
+        </div>
+        <input id="fname" type="text" placeholder="First Name">
+        <div id="fname_error" style="display: inline;"></div>
+        <br>
+        <input id="mname" type="text" placeholder="middle Name(optional)">
+        <div id="mname_error" style="display: inline;"></div>
+        <br>
+        <input id="lname" type="text" placeholder="Last Name">
+        <div id="lname_error" style="display: inline;"></div>
+        <br>
+        <div id="dob">
+            Date of birth<span>*</span>
+        </div>
+        <input id="ddmmyyyy" type="date">
+        <div id="date_error" style="display: inline-block;"></div>
+        <br>
+        <div id="gender">
+            Gender <span>*</span>
+        </div>
+
+        <input id="radiom" type="radio" name="sex">Male
+        <input id="radiof" type="radio" name="sex">Female
+        <input id="radioo" type="radio" name="sex">Other
+        <div id="gender_error" style="display: inline-block;"></div>
+        <br>
+        <div id="mail">
+            Email id <span>*</span>
+        </div>
+        <input id="email" type="email" placeholder="abc@xyz.com">
+        <div id="email_error" style="display: inline-block;"></div>
+        <br>
+        <div id="mobile">
+            Mobile No. <span>*</span>
+        </div>
+        <input id="mobno" type="text" placeholder="XXXXXXXXXX">
+        <div id="mobile_error" style="display: inline-block;"></div>
+        <br>
+        <div id="address">
+            Address <span>*</span>
+        </div>
+
+        <input id="street" type="text" placeholder="House No./Street">
+        <div id="street_error" style="display: inline-block;"></div>
+        <br>
+        <input id="area" type="text" placeholder="Area">
+        <div id="area_error" style="display: inline-block;"></div>
+        <br>
+        <input id="city" type="text" placeholder="City">
+        <div id="city_error" style="display: inline-block;"></div>
+        <br>
+        <input id="pin" type="text" placeholder="PIN Code">
+        <div id="pin_error" style="display: inline-block;"></div>
+        <br>
+        <div id="button">
+            <button type="button" id="submit" onclick="alertFunction()">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="registration.js">
+</script>
+
+</html>
